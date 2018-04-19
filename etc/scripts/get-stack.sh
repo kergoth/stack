@@ -523,6 +523,10 @@ install_32bit_standard_binary() {
   install_from_bindist "linux-i386"
 }
 
+install_64bit_standard_binary() {
+  install_from_bindist "linux-x86_64"
+}
+
 install_aarch64_binary() {
   install_from_bindist "linux-aarch64"
 }
